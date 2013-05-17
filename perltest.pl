@@ -84,7 +84,7 @@ sub HandleClient {
     	print STDERR "Close client $fileno\n";
 	vec($fielbits, $fileno, 1) = 0;
 	$connections{$fileno}{client}->close();
-	undef $connections{$fileno}'
+	undef $connections{$fileno};
 	SendMessage("Close Client");
     }
 }
