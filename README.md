@@ -1,4 +1,4 @@
 repostest
 =========
 
-Git test.
+Git test repository.
